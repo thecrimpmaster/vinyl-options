@@ -4,5 +4,5 @@
 
 # first, run composer req annotations
 controllers:
-    resource: ../src/Controller/
+    resource: ../../src/App/Controller/
     type: annotation
