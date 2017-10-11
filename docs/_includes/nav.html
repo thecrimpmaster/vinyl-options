@@ -1,0 +1,11 @@
+<ul class="nav nav-pills flex-column">
+    <li class="nav-item">
+        <a class="nav-link {% if page.url == '/' %}active{% endif %}" href="{{ site.baseurl }}{% link pages/introduction.md %}">Introduction</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link {% if page.url == '/test' %}active{% endif %}" href="{{ site.baseurl }}{% link pages/test.md %}">Test</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link {% if page.url == '/about' %}active{% endif %}" href="{{ site.baseurl }}{% link pages/about.md %}">About</a>
+    </li>
+</ul>
